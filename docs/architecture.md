@@ -14,3 +14,15 @@ Voice / Text
 → Permission Check
 → Action / Information
 → Response
+## AI Core
+
+The AI Core is the central intelligence layer of the Personal AI.
+
+Responsibilities:
+
+- Understand natural language
+- Analyze user intent
+- Decide which skill or tool is required
+- Generate responses
+- Coordinate memory, skills, and devices
+- Follow system rules and permissions
