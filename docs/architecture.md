@@ -47,3 +47,27 @@ Microphone
 → Response
 → Text-to-Speech
 → Speaker
+## Memory System
+
+The Memory System will store information that the user explicitly allows the Personal AI to remember.
+
+Memory categories:
+
+- User preferences
+- Important notes
+- Projects
+- Tasks
+- Conversation context
+- Custom instructions
+
+The user will be able to:
+
+- Add memories
+- View memories
+- Edit memories
+- Delete memories
+- Disable memory
+
+Privacy principle:
+
+The Personal AI must not treat every conversation as permanent memory.
