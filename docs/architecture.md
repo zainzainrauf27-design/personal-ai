@@ -478,3 +478,123 @@ A new skill should be able to define:
 - Logging requirements
 
 The goal is to create an expandable Personal AI platform rather than a fixed chatbot.
+## Permission System
+
+The Permission System controls what the Personal AI is allowed to access or execute.
+
+Every skill, tool, device, and sensitive operation must pass through the permission system before execution.
+
+## Permission Levels
+
+### Level 0 — Public Information
+
+No special device permission required.
+
+Examples:
+
+- Weather
+- General questions
+- Public web search
+- General explanations
+
+### Level 1 — Personal Data
+
+Requires user authorization.
+
+Examples:
+
+- Personal memory
+- Personal notes
+- Private documents
+- Personal preferences
+
+### Level 2 — Device Access
+
+Requires explicit device permission.
+
+Examples:
+
+- Open applications
+- Read authorized device information
+- Control supported device functions
+- Access authorized files
+
+### Level 3 — Sensitive Actions
+
+Requires explicit permission and confirmation.
+
+Examples:
+
+- Shutdown
+- Restart
+- Delete files
+- Install software
+- Change important system settings
+- Send messages
+- Send emails
+
+### Level 4 — Restricted Actions
+
+These actions are disabled by default and require additional security controls.
+
+## Permission States
+
+Each capability can have one of these states:
+
+- Allowed
+- Denied
+- Confirmation Required
+- Restricted
+- Disabled
+
+## Owner Control
+
+The owner can manage permissions from the Developer/Owner Panel.
+
+The owner should be able to:
+
+- Enable a skill
+- Disable a skill
+- Change permission level
+- Require confirmation
+- Revoke device access
+- Review active permissions
+- Review permission history
+
+## Confirmation System
+
+For sensitive operations, the Personal AI must ask for confirmation before execution.
+
+Example:
+
+User:
+"Shutdown the laptop."
+
+AI:
+"Shutdown requires confirmation. Do you want me to continue?"
+
+User:
+"Yes."
+
+AI:
+"Permission confirmed. Executing shutdown."
+
+## Permission Logging
+
+Important permission events should be logged.
+
+Logs may include:
+
+- Time
+- Skill
+- Requested action
+- Permission state
+- Result
+- Device
+- Confirmation status
+
+## Security Principle
+
+The Personal AI must never assume that access to one capability automatically grants access to every other capability.
+
+Permissions should follow the principle of least privilege.
