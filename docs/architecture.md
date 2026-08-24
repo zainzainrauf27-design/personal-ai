@@ -26,3 +26,24 @@ Responsibilities:
 - Generate responses
 - Coordinate memory, skills, and devices
 - Follow system rules and permissions
+## Voice System
+
+The Voice System will allow the user to communicate with the Personal AI using natural speech.
+
+Responsibilities:
+
+- Capture the user's voice
+- Convert speech into text
+- Send the command to the AI Core
+- Convert the AI response into speech
+- Support continuous voice interaction
+- Handle listening, processing, and speaking states
+
+Basic flow:
+
+Microphone
+→ Speech Recognition
+→ AI Core
+→ Response
+→ Text-to-Speech
+→ Speaker
