@@ -668,3 +668,35 @@ It should clearly report:
 The Personal AI should be powerful without giving unnecessary access.
 
 The owner remains in control of the system.
+## Development Environment
+
+The project should support development across multiple environments.
+
+### Current Environment
+
+Android device will be used during the initial development period for:
+
+- Project management
+- Documentation
+- Basic web development
+- Repository management
+- Learning
+- Testing lightweight components
+
+### Future Main Environment
+
+A laptop will be used for:
+
+- Full-stack development
+- AI development
+- Local tools
+- Voice processing
+- Device integration
+- PC automation
+- Testing
+- Debugging
+- Local development servers
+
+### Development Principle
+
+The project should remain portable and organized so development can continue across devices without rebuilding the project from the beginning.
