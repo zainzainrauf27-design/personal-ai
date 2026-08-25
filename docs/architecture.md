@@ -598,3 +598,73 @@ Logs may include:
 The Personal AI must never assume that access to one capability automatically grants access to every other capability.
 
 Permissions should follow the principle of least privilege.
+## Security Architecture
+
+Security is a core requirement of the Personal AI.
+
+The system must use a security-first architecture for AI access, device control, personal data, memory, skills, and connected services.
+
+Security principles:
+
+- Least privilege
+- Explicit permissions
+- Owner-controlled access
+- Secure authentication
+- Secure session management
+- Protected secrets
+- Encrypted sensitive data where practical
+- Permission verification before sensitive actions
+- Action logging
+- Error handling
+- Safe failure
+- Ability to revoke access
+
+## Owner Security
+
+The owner account must have a separate protected control layer.
+
+Owner capabilities include:
+
+- Manage AI configuration
+- Manage skills
+- Manage permissions
+- Manage memory
+- Manage connected devices
+- Review security logs
+- Revoke access
+- Disable capabilities
+- Configure authentication
+
+## Secret Management
+
+API keys, tokens, passwords, and other secrets must never be stored directly inside source code.
+
+Secrets should be managed using appropriate environment variables or secure secret storage.
+
+## Safe Execution
+
+Before executing a sensitive action, the system should:
+
+1. Identify the requested action
+2. Identify the required skill
+3. Check the user's permission
+4. Request confirmation when required
+5. Execute only the authorized operation
+6. Record the result when appropriate
+
+## Failure Handling
+
+If a command cannot be safely or reliably executed, the AI should not pretend that it succeeded.
+
+It should clearly report:
+
+- What it understood
+- What it attempted
+- Why it failed
+- What can be done next
+
+## Security Goal
+
+The Personal AI should be powerful without giving unnecessary access.
+
+The owner remains in control of the system.
