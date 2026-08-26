@@ -50,3 +50,27 @@ The main interface should provide:
 - Permission Manager
 - Security Logs
 - Settings
+## Technology Direction
+
+The frontend should be built using modern web technologies.
+
+Initial direction:
+
+- HTML
+- CSS
+- JavaScript
+
+The interface should remain responsive and mobile-friendly.
+
+The frontend architecture should allow future migration to a more advanced framework if required.
+
+## Mobile-First Development
+
+The first interface should work well on:
+
+- Android browsers
+- Mobile screens
+- Tablet screens
+- Desktop screens
+
+The Personal AI should eventually provide a premium responsive Cyber Command Center interface across supported devices.
