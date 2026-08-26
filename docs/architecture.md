@@ -700,3 +700,75 @@ A laptop will be used for:
 ### Development Principle
 
 The project should remain portable and organized so development can continue across devices without rebuilding the project from the beginning.
+## Technology Stack
+
+The initial Personal AI stack is designed to prioritize zero-cost development, portability, open-source tools, and future expansion.
+
+### Frontend
+
+- HTML
+- CSS
+- JavaScript
+
+Purpose:
+
+- User interface
+- Cyber Command Center
+- Voice interface
+- AI conversation
+- Owner controls
+
+### Backend
+
+Initial direction:
+
+- Python
+
+Purpose:
+
+- API services
+- AI integration
+- Skill execution
+- Memory services
+- Device communication
+- Automation
+
+### AI Layer
+
+The AI layer should remain model-independent.
+
+The system should support:
+
+- Local AI models where practical
+- Free/open-source AI solutions
+- External AI APIs when available and appropriate
+
+The AI model should be replaceable without rebuilding the complete application.
+
+### Voice
+
+The voice architecture should support:
+
+- Speech-to-text
+- Text-to-speech
+- Wake-word detection
+- Voice activity detection
+
+Local and open-source solutions should be preferred where practical.
+
+### Data
+
+The project should support a lightweight local database during early development.
+
+Future database options can be evaluated as the system grows.
+
+### Version Control
+
+- Git
+- GitHub
+
+### Development Principle
+
+Choose the simplest reliable technology for each component.
+
+Avoid unnecessary dependencies and paid services.
