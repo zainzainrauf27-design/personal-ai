@@ -9,3 +9,9 @@ def root():
         "status": "online",
         "message": "Personal AI backend is running."
     }
+@app.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "service": "personal-ai-backend"
+    }
