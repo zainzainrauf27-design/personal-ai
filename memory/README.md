@@ -46,3 +46,42 @@ User Information
 - Automatic duplicate detection
 - Memory expiration
 - Memory privacy controls
+## Current Module
+
+### memory_store.py
+
+Contains the initial `MemoryStore` class.
+
+Current responsibilities:
+
+- Store temporary memory items
+- Add memory
+- Retrieve stored memories
+- Clear temporary memories
+
+## Current Storage
+
+The first implementation uses temporary in-memory storage.
+
+This is only a development foundation.
+
+## Future Storage
+
+The memory system can later be connected to a persistent database.
+
+Possible future capabilities:
+
+- Persistent memories
+- Memory search
+- Memory categories
+- Importance levels
+- Context retrieval
+- Duplicate detection
+- Memory expiration
+- Owner-controlled deletion
+
+## Privacy Principle
+
+Memory should be controlled by the owner.
+
+Sensitive information should not be stored permanently without appropriate authorization.
