@@ -40,3 +40,37 @@ Microphone
 Microphone access must require appropriate device permission.
 
 The system should clearly indicate when it is actively listening.
+## Current Module
+
+### voice_system.py
+
+Contains the initial `VoiceSystem` class.
+
+Current responsibilities:
+
+- Maintain listening state
+- Start listening state
+- Stop listening state
+- Provide the interface for future speech processing
+
+## Future Voice Pipeline
+
+Microphone
+→ Speech Detection
+→ Speech-to-Text
+→ AI Core
+→ Response
+→ Text-to-Speech
+→ Speaker
+
+## Future Capabilities
+
+The Voice System may later support:
+
+- Wake word
+- Continuous conversation
+- Multiple languages
+- Voice activity detection
+- Noise handling
+- Interruptible responses
+- Configurable voice settings
