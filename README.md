@@ -4,7 +4,7 @@ A private, voice-controlled personal AI assistant designed to understand natural
 
 ## Project Status
 
-Day 1 / 120
+Day 2 / 120
 
 ## Core Vision
 
