@@ -78,3 +78,49 @@ Sensitive operations must use the required authorization and confirmation flow.
 ## Expansion
 
 New skills should be addable without modifying the entire AI Core.
+## Current Module
+
+### skill_manager.py
+
+Contains the initial `SkillManager` class.
+
+Current responsibilities:
+
+- Register skills
+- Retrieve skills
+- List available skills
+- Provide a central skill-management interface
+
+## Future Skill Architecture
+
+Each skill should be independently implemented and registered with the Skill Manager.
+
+Example:
+
+User Command
+→ AI Core
+→ Skill Manager
+→ Selected Skill
+→ Permission Check
+→ Tool
+→ Result
+→ AI Response
+
+## Skill Requirements
+
+Every production skill should define:
+
+- Name
+- Description
+- Inputs
+- Outputs
+- Required permissions
+- Execution logic
+- Error handling
+- Security requirements
+
+## Safety
+
+The Skill Manager must not bypass permissions.
+
+Sensitive device or system operations must use appropriate authorization.
