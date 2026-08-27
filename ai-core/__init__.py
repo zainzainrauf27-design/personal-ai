@@ -1,0 +1,3 @@
+"""
+Personal AI Core package.
+"""
