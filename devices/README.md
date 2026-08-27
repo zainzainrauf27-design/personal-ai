@@ -66,3 +66,50 @@ User Command
 → Action
 → Result
 → AI Response
+## Current Module
+
+### device_manager.py
+
+Contains the initial `DeviceManager` class.
+
+Current responsibilities:
+
+- Register devices
+- Track device authorization
+- Authorize devices
+- Revoke device authorization
+- List registered devices
+
+## Device Authorization
+
+A device is not considered authorized by default.
+
+The authorization state must be explicitly changed through the appropriate security flow.
+
+## Future Device Architecture
+
+The Device Manager will later work with device-specific adapters.
+
+Example:
+
+Personal AI
+→ Device Manager
+→ Authorized Device
+→ Device Adapter
+→ Allowed Action
+→ Result
+
+## Planned Device Adapters
+
+Future development may include:
+
+- Windows computer adapter
+- Android adapter
+- Local network device adapter
+- Smart-device adapter
+
+## Security Principle
+
+Device registration and authorization are separate operations.
+
+Revoking a device must immediately prevent future actions through that device.
