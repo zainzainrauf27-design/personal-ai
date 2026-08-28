@@ -164,3 +164,38 @@ section {
     border-radius: 50%;
     background: var(--accent);
 }
+.ai-orb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+}
+
+.orb-ring {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+}
+
+.orb-core {
+    width: 72px;
+    height: 72px;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    background: var(--bg-primary);
+    box-shadow:
+        0 0 20px rgba(0, 229, 255, 0.25),
+        inset 0 0 20px rgba(0, 229, 255, 0.12);
+}
+
+.command-status {
+    text-transform: uppercase;
+}
+
+.ai-orb + .command-status {
+    margin-top: 22px;
+}
