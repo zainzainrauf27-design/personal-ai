@@ -199,3 +199,49 @@ section {
 .ai-orb + .command-status {
     margin-top: 22px;
 }
+.command-area {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--bg-secondary);
+}
+
+.command-area label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.command-area input {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.command-area input::placeholder {
+    color: var(--text-muted);
+}
+
+.command-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.command-controls button {
+    min-height: 44px;
+    padding: 0 18px;
+    border-radius: 10px;
+}
+
+.command-controls button:hover {
+    border-color: var(--accent);
+}
