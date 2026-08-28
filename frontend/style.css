@@ -1,0 +1,25 @@
+:root {
+    --bg-primary: #05070a;
+    --bg-secondary: #0a0f16;
+    --text-primary: #f2f7ff;
+    --text-muted: #7f8b9a;
+    --accent: #00e5ff;
+    --border: rgba(0, 229, 255, 0.18);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: Arial, sans-serif;
+}
