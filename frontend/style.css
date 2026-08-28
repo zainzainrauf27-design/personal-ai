@@ -23,3 +23,41 @@ body {
     color: var(--text-primary);
     font-family: Arial, sans-serif;
 }
+#app {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.18em;
+}
+
+p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    border: 1px solid var(--border);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+section {
+    width: 100%;
+}
