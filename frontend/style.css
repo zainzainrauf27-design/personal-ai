@@ -125,3 +125,42 @@ section {
     margin: 0;
     font-size: 0.9rem;
 }
+.command-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--bg-secondary);
+    text-align: center;
+}
+
+.command-center h2 {
+    margin: 16px 0 8px;
+    font-size: 1.7rem;
+}
+
+.command-center p {
+    margin: 0;
+}
+
+.command-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    color: var(--accent);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+}
