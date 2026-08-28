@@ -101,3 +101,27 @@ section {
 .system-state {
     color: var(--accent);
 }
+.ai-panel {
+    padding: 18px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--bg-secondary);
+}
+
+.ai-indicator {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.ai-message {
+    margin: 0;
+    font-size: 0.9rem;
+}
