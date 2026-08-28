@@ -61,3 +61,43 @@ input:focus-visible {
 section {
     width: 100%;
 }
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px;
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+    background: var(--bg-secondary);
+    border-radius: 16px;
+}
+
+.system-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+}
+
+.system-info,
+.system-version {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.system-label,
+.system-state,
+.system-version span {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+}
+
+.system-state {
+    color: var(--accent);
+}
