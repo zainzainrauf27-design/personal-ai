@@ -425,3 +425,40 @@ section {
         padding-top: 24px;
     }
 }
+@media (max-width: 699px) {
+
+    #app {
+        padding: 16px;
+    }
+
+    .system-header {
+        align-items: flex-start;
+    }
+
+    .system-version {
+        text-align: right;
+    }
+
+    .command-center {
+        min-height: 320px;
+        padding: 24px 16px;
+    }
+
+    .command-center h2 {
+        font-size: 1.45rem;
+    }
+
+    .command-controls {
+        flex-direction: column;
+    }
+
+    .command-controls button {
+        width: 100%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
