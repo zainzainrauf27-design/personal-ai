@@ -277,3 +277,42 @@ section {
     border-color: var(--accent);
     color: var(--accent);
     }
+.activity-panel {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--bg-secondary);
+}
+
+.panel-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.panel-heading h3 {
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+}
+
+.activity-state {
+    color: var(--accent);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+}
+
+.activity-log {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.log-entry {
+    padding: 10px 12px;
+    border-left: 2px solid var(--accent);
+    background: var(--bg-primary);
+    font-size: 0.8rem;
+}
