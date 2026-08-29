@@ -352,3 +352,36 @@ section {
 .module-card p {
     font-size: 0.7rem;
 }
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 18px 4px;
+    color: var(--text-muted);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+}
+
+.notification {
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    padding: 14px 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.notification.is-visible {
+    opacity: 1;
+}
+
+.notification[aria-live="polite"] {
+    transition: opacity 0.2s ease;
+}
