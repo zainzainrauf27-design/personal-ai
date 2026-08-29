@@ -316,3 +316,39 @@ section {
     background: var(--bg-primary);
     font-size: 0.8rem;
 }
+.system-modules {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--bg-secondary);
+}
+
+.system-modules h3 {
+    margin-bottom: 14px;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.module-card {
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--bg-primary);
+}
+
+.module-card h4 {
+    margin-bottom: 6px;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+}
+
+.module-card p {
+    font-size: 0.7rem;
+}
