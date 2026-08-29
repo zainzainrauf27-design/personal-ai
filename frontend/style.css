@@ -385,3 +385,43 @@ section {
 .notification[aria-live="polite"] {
     transition: opacity 0.2s ease;
 }
+@media (min-width: 700px) {
+
+    #app {
+        padding: 32px;
+    }
+
+    .command-center {
+        min-height: 440px;
+    }
+
+    .action-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .module-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .command-area {
+        padding: 24px;
+    }
+
+    .quick-actions,
+    .activity-panel,
+    .system-modules {
+        padding: 24px;
+    }
+
+    .ai-panel {
+        padding: 24px;
+    }
+
+    .system-header {
+        padding: 20px;
+    }
+
+    .footer {
+        padding-top: 24px;
+    }
+}
